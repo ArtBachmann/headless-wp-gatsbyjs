@@ -1,4 +1,4 @@
-import React, { createElement } from 'react'
+import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import CTA from './CTA'
 

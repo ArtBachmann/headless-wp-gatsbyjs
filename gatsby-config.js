@@ -61,6 +61,24 @@ module.exports = {
         },
       },
     },
+    // {
+    //   resolve: 'gatsby-source-wordpress',
+    //   options: {
+    //     excludedRoutes: [
+    //       '/wp/v2/users/**',
+    //       '/wp/v2/settings*',
+    //       '/wp/v2/themes*',
+    //     ],
+    //     baseUrl: 'test.artbachmann.fi/brochure-site',
+    //     protocol: 'http',
+    //     hostingWPCOM: false,
+    //     useACF: true,
+    //     searchAndReplaceContentUrls: {
+    //       sourceUrl: 'http://test.artbachmann.fi/brochure-site',
+    //       replacementUrl: '',
+    //     },
+    //   },
+    // },
     'gatsby-plugin-styled-components',
     {
       resolve: 'gatsby-plugin-prefetch-google-fonts',
